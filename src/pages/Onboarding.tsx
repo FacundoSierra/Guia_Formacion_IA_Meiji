@@ -86,7 +86,7 @@ export default function Onboarding() {
               transition={{ delay: 0.2 }}
               className="inline-block px-4 py-1.5 rounded-full text-sm font-semibold gradient-primary text-primary-foreground"
             >
-              Guia de Aprendizaje de IA
+              Guia de Formación de IA
             </motion.div>
             <h1 className="text-4xl md:text-5xl font-display font-bold leading-tight text-foreground">
               Mejora tu trabajo
@@ -94,7 +94,7 @@ export default function Onboarding() {
               <span className="text-primary">con IA</span>
             </h1>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              Domina ChatGPT y Gemini. Gana puntos. Compite con tu equipo.
+              Domina Gemini en tu día a día. Gana puntos. Compite con tu equipo.
             </p>
           </div>
           <div className="space-y-4">
@@ -170,7 +170,7 @@ export default function Onboarding() {
               <TabsContent value="register">
                 <form onSubmit={handleRegister} className="space-y-5">
                   <div className="text-center space-y-1 mb-2">
-                    <h2 className="text-2xl font-display font-bold text-card-foreground">¡Únete al reto!</h2>
+                    <h2 className="text-2xl font-display font-bold text-card-foreground">¡Únete a la formación!</h2>
                     <p className="text-muted-foreground text-sm">Completa tus datos para empezar</p>
                   </div>
                   <div>
